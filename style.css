@@ -1,0 +1,114 @@
+
+#sidescenter{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 244px;
+    height: 285px;
+    margin-left: -122px;
+    margin-top: -167px;
+}
+#demo{
+    position: absolute;
+    top: 27%;
+    right: 5%;
+    width: 244px;
+    height: 285px;
+    margin-left: -122px;
+    margin-top: -167px;
+}
+
+footer{
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+}
+p{
+    color: white;
+    font-size: 12;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+    background-image: url('3f74e69b00a2ce56df4d4d04096de395.jpg');
+  }
+  
+  @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  div[class*=box] {
+    height: 33.33%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-1 { background-color: #FF6766; }
+  .box-3 { background-color: #66A182; }
+  
+  .btn {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+  }
+  .btn-two {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative; 
+  }
+  .btn-two span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+  }
+  .btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  .btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+  }
+  
+  
+
+span{
+    z-index: 1;
+}

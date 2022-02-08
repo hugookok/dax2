@@ -1,3 +1,4 @@
+
 /**
  * @param {String} fodselsdato format: ddmmyy
  * @param {boolean} isKvinne //how you identify, hvis du er ikke binær, bruk det tallet som du synes beskriver kjønnet ditt best
