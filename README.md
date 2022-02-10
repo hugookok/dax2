@@ -1,4 +1,2 @@
 # daxoppgave_2
-Clone, branch and push!
-
-Make your own branch, and push to that branch. That is how you hand in this assignment.
+Hei, dette er en dødskalkulator. Dette prosjektet regner ut når du skal dø basert på livsstilen din.
